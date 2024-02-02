@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Londrina+Solid&family=Montserrat&family=Roboto&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-background: #C4C6CB;
+    --color1: #040D12;
+    --color2: #FFC107;
+    --color3: #040D12;
+    --color4: #0E1D76;
+    --color5: #FFFFFF;
+    --color6: #FDF497;
+    --color7: #FDF497;
+    --color8: #FD5949;
+    --color9: #D6249F;
+    --color10: #285AEB;
+    --color11: #25D366;
+}
+
+body {
+    background-color: var(--color-background);
+    color: var(--color1);
+}
