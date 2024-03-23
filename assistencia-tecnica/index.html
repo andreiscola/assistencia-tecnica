@@ -1,59 +1,128 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Sua solução completa para conserto de celulares e reparo de computadores em Porto Alegre e região metropolitana. A LAB25 oferece serviços rápidos e confiáveis, incluindo reparos expressos. Especializados em resolver problemas de dispositivos, garantimos atendimento profissional e eficiente. Entre em contato agora para agendar seu serviço e tenha seus aparelhos funcionando perfeitamente novamente!">
-    <meta name="keywords" content="conserto de celulares, reparo de smartphones, Android, Apple, conserto de computadores, assistência técnica, Porto Alegre, região metropolitana, serviços rápidos, reparos expressos, dispositivos eletrônicos">
+    <meta name="description"
+        content="Sua solução completa para conserto de celulares e reparo de computadores em Porto Alegre e região metropolitana. A LAB25 oferece serviços rápidos e confiáveis, incluindo reparos expressos. Especializados em resolver problemas de dispositivos, garantimos atendimento profissional e eficiente. Entre em contato agora para agendar seu serviço e tenha seus aparelhos funcionando perfeitamente novamente!">
+    <meta name="keywords"
+        content="conserto de celulares, reparo de smartphones, Android, Apple, conserto de computadores, assistência técnica, Porto Alegre, região metropolitana, serviços rápidos, reparos expressos, dispositivos eletrônicos">
     <meta name="author" content="Andrei Scola">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="index, follow">
     <meta property="og:type" content="website">
-    <meta property="og:description" content="Oferecemos serviços rápidos e confiáveis para conserto e reparo de celulares e computadores, atendendo Porto Alegre e região metropolitana">
+    <meta property="og:description"
+        content="Oferecemos serviços rápidos e confiáveis para conserto e reparo de celulares e computadores, atendendo Porto Alegre e região metropolitana">
     <meta name="csrf-token" content="{{ csrf-token() }}">
     <meta name="theme-color" content="#4285f4">
-    <title>LAB25 | Home</title>
+    <title>LA Informática</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/script.js" defer></script>
 </head>
+
 <body>
     <header>
-        <div>
-            <div>
+        <div class="main1">
+            <div class="main2">
                 <img src="assets/icons/icon-android.png" alt="ícone do sistema Android para celulares">
                 <img src="assets/icons/icon-mac.png" alt="ícone do sistema MacOS para iphones">
                 <img src="assets/icons/icon-linux.png" alt="ícone do sistema Linux para computadores">
                 <img src="assets/icons/icon-windows.png" alt="ícone do sistema Windows 95 para computadores">
             </div>
-            <div>
-                <div>
-                    <a href=""><img src="assets/icons/icon-envelope.png" alt="ícone de envelope para envio de e-mail"></a>
-                    <a href=""><img src="assets/icons/icon-instagram.png" alt="ícone do instagram"></a>
-                </div>
-                <div>
+            <a href="index.html"><img src="assets/images/idea-logo1.png" alt="Logo da LA Informática"></a>
+            <div class="main3">
+                <div class="main-phone">
                     <p>(51) 00000-0000</p>
+                </div>
+                <div class="main4">
+                    <a href=""><img src="assets/icons/icon-envelope.png"
+                            alt="ícone de envelope para envio de e-mail"></a>
+                    <a href=""><img src="assets/icons/icon-instagram.png" alt="ícone do instagram"></a>
                 </div>
             </div>
         </div>
-        <div>
-            <div>
-                <a href="index.html"><img src="assets/images/idea-logo1.png" alt="Logo da LA Informática"></a>
-            </div>
-            <div>
+        <div class="submain">
+            <div class="submain1">
                 <nav>
                     <ul>
-                        <a href=""><li>Home</li></a>
-                        <a href=""><li>About</li></a>
-                        <a href=""><li>Services</li></a>
-                        <a href=""><li>Contact</li></a>
+                        <a href="index.html">
+                            <li>Home</li>
+                        </a>
+                        <a href="about.html">
+                            <li>About</li>
+                        </a>
+                        <a href="services.html">
+                            <li>Services</li>
+                        </a>
+                        <a href="contact.html">
+                            <li>Contact</li>
+                        </a>
                     </ul>
                 </nav>
             </div>
         </div>
     </header>
     <main>
-
+        <div class="carrossel">
+            <div class="container" id="img">
+                <img src="assets/images/celular1.jpg" alt="Celular1">
+                <img src="assets/images/pc1.jpg" alt="PC1">
+                <img src="assets/images/celular2.jpg" alt="Celular2">
+                <img src="assets/images/pc2.jpg" alt="PC2">
+                <img src="assets/images/celular3.jpg" alt="celular3">
+                <img src="assets/images/pc3.jpg" alt="PC3">
+                <img src="assets/images/celular4.jpg" alt="Celular4">
+                <img src="assets/images/pc4.jpg" alt="PC4">
+                <img src="assets/images/celular5.jpg" alt="Celular5">
+                <img src="assets/images/pc5.jpg" alt="PC5">
+            </div>
+        </div>
+        <div class="about">
+            <div class="aboutW">
+                <h1>L.A Informática</h1>
+                <p>A L.A é uma empresa que atua no ramo da informática, tendo sua especialidade ativa no conserto de
+                    computadores e celulares...</p>
+                <a href="about.html">LER MAIS</a>
+            </div>
+        </div>
+        <div class="services">
+            <div class="servicesTextImg">
+                <h1>CATEGORIAS</h1>
+                <div class="servicesImg">
+                    <div class="servicesP">
+                        <img src="assets/images/celular1.jpg" alt="Celular1">
+                        <a href="services.html">CELULARES</a>
+                    </div>
+                    <div class="servicesP">
+                        <img src="assets/images/pc1.jpg" alt="PC1">
+                        <a href="services.html">COMPUTADORES</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contact">
+            <div class="contactTextP">
+                <p>Entre em contato e peça um orçamento!</p>
+            </div>
+            <div class="contactTextI">
+                <div class="contactWhats">
+                    <a href=""><img src="assets/icons/icon-whatsapp.png" alt="Ícone WhatsApp"></a>
+                    <a href="">+55 51 90000-0000</a>
+                </div>
+                <div class="contactInsta">
+                    <a href=""><img src="assets/icons/icon-instagram2.png" alt="Ícone Instagram"></a>
+                    <a href="">_username</a>
+                </div>
+                <div class="contactM">
+                    <a href=""><img src="assets/icons/icon-mail.png" alt="Ícone E-mail"></a>
+                    <a href="">username@gmail.com</a>
+                </div>
+            </div>
+        </div>
     </main>
     <footer>
 
     </footer>
 </body>
+
 </html>
