@@ -119,7 +119,7 @@ body {
 .submain1 a {
     font-family: var(--font5);
     text-decoration: none;
-    color: var(--color1);
+    color: var(--color4);
     font-weight: 600;
     transition: all ease-in-out 0.2s;
 }
@@ -253,48 +253,53 @@ main {
 }
 
 .contact {
-    margin: 5% 0;
-    background-color: var(--color5);
-    padding: 5%;
-    border-radius: 10%;
+    margin: 2%;
+    padding: 2%;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 25px;
+    background-color: var(--color5);
+    border-radius: 15px;
 }
 
-.contactTextP {
+.contact p {
+    color: var(--color12);
+    font-size: 1rem;
+    font-family: var(--font1);
+    font-weight: 600;
+}
+
+.iconsContact {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.contactW,
+.contactI,
+.contactM {
+    opacity: 1;
+    transition: all ease-in-out 0.3s;
+}
+
+.contactW:hover,
+.contactI:hover,
+.contactM:hover {
+    opacity: 0.8;
+    transform: scale(1.10);
+}
+
+.pay {
+    padding: 5% 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    border-bottom: 1px solid var(--color1);;
+}
+
+.pay h1 {
     font-family: var(--font1);
     font-size: 1.5rem;
-    font-weight: 600;
-}
-
-.contactTextI {
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-}
-
-.contactInsta,
-.contactM {
-    display: flex;
-    align-items: center;
-    gap: 75px;
-}
-
-.contactWhats {
-    display: flex;
-    align-items: center;
-    gap: 75px;
-    background-color: var(--color11);
-    padding: 2%;
-}
-
-.contactWhats a {
-    text-decoration: none;
-    color: var(--color12);
-    font-family: var(--font5);
-    font-size: 1rem;
-    font-weight: 600;
-    white-space: nowrap;
 }
