@@ -29,6 +29,8 @@
     --font6: 'Telegraf', sans-serif;
 }
 
+/*Header styles*/
+
 body {
     min-height: 100vh;
     background-color: var(--color-background);
@@ -155,6 +157,8 @@ main {
     height: 300px;
     width: 300px;
 }
+
+/*Main styles*/
 
 .about {
     padding: 5% 0;
@@ -310,6 +314,8 @@ main {
     font-family: var(--font1);
     font-size: 1.5rem;
 }
+
+/*Footer styles*/
 
 footer {
     background-color: var(--color12);
