@@ -117,7 +117,7 @@ body {
 }
 
 .submain1 a {
-    font-family: var(--font5);
+    font-family: var(--font1);
     text-decoration: none;
     color: var(--color4);
     font-weight: 600;
@@ -167,6 +167,7 @@ main {
     justify-content: center;
     align-items: center;
     gap: 25px;
+    cursor: default;
 }
 
 .aboutW h1 {
@@ -183,8 +184,8 @@ main {
     border: 1px solid var(--color1);
     padding: 0.5% 5%;
     background-color: var(--color4);
-    font-size: 1rem;
-    font-family: var(--font6);
+    font-size: 0.8rem;
+    font-family: var(--font1);
     text-decoration: none;
     color: var(--color5);
     transition: all ease-in-out 0.1s;
@@ -210,6 +211,7 @@ main {
     flex-direction: column;
     align-items: center;
     gap: 50px;
+    cursor: default;
 }
 
 .servicesTextImg h1 {
@@ -221,7 +223,6 @@ main {
     display: flex;
     align-items: center;
     gap: 50px;
-
 }
 
 .servicesP {
@@ -233,14 +234,19 @@ main {
 
 .servicesP img {
     border: 1px solid var(--color1);
+    transition: all ease-in-out 0.3s;
+}
+
+.servicesP img:hover {
+    transform: scale(0.95);
 }
 
 .servicesP a {
-    border: 1px solid var(--color1);
+    border: 1px solid var(--color-background);
     padding: 2% 5%;
     background-color: var(--color4);
     font-size: 1rem;
-    font-family: var(--font6);
+    font-family: var(--font1);
     text-decoration: none;
     color: var(--color5);
     transition: all ease-in-out 0.1s;
@@ -268,6 +274,7 @@ main {
     font-size: 1rem;
     font-family: var(--font1);
     font-weight: 600;
+    cursor: default;
 }
 
 .iconsContact {
@@ -302,4 +309,79 @@ main {
 .pay h1 {
     font-family: var(--font1);
     font-size: 1.5rem;
+}
+
+footer {
+    background-color: var(--color12);
+    padding: 2%;
+}
+
+.ftmain {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.ftleft {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: flex-start;
+}
+
+.ftWha,
+.ftMai,
+.ftTim {
+    cursor: default;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    font-family: var(--font1);
+    font-size: 0.8rem;
+    color: var(--color5);
+}
+
+.subftright {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.subftright a {
+    text-decoration: none;
+    color: var(--color5);
+    opacity: 1;
+    transition: all ease-in-out 0.3s;
+    font-family: var(--font1);
+    font-size: 0.8rem;
+}
+
+.subftright a:hover {
+    opacity: 0.5;
+}
+
+.titleInst {
+    color: var(--color5);
+    font-family: var(--font1);
+    font-size: 1.50rem;
+    font-weight: 800;
+    cursor: default;
+    letter-spacing: 1px;
+}
+
+.ftfin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3%;
+    gap: 5px;
+}
+
+.ftfin p {
+    font-family: var(--font1);
+    font-size: 0.7rem;
+    color: var(--color-background);
 }
