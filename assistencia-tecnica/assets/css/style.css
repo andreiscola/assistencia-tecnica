@@ -249,7 +249,7 @@ main {
     border: 1px solid var(--color-background);
     padding: 2% 5%;
     background-color: var(--color4);
-    font-size: 1rem;
+    font-size: 0.8rem;
     font-family: var(--font1);
     text-decoration: none;
     color: var(--color5);
