@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Londrina+Solid&family=Montserrat&family=Roboto&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-background: #C4C6CB;
+    --color1: #040D12;
+    --color2: #FFC107;
+    --color3: #040D12;
+    --color4: #0E1D76;
+    --color5: #FFFFFF;
+    --color6: #FDF497;
+    --color7: #FDF497;
+    --color8: #FD5949;
+    --color9: #D6249F;
+    --color10: #285AEB;
+    --color11: #25D366;
+    --color12: #12486B;
+
+    --font1: "Barlow", sans-serif;
+    --font2: 'Londrina Solid', sans-serif;
+    --font3: 'Montserrat', sans-serif;
+    --font4: 'Roboto', sans-serif;
+    --font5: 'Garet', sans-serif;
+    --font6: 'Telegraf', sans-serif;
+}
+
+/*Header styles*/
+
+body {
+    min-height: 100vh;
+    background-color: var(--color-background);
+    color: var(--color1);
+}
+
+.main1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1%;
+    background: linear-gradient(to bottom, var(--color1), var(--color4)) no-repeat;
+}
+
+.main2 {
+    border-bottom: 0.2px solid var(--color-background);
+}
+
+.main2 img {
+    transition: all ease-in-out 0.4s;
+}
+
+.main2 img:hover {
+    transform: scale(0.95);
+}
+
+.main3 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 1%;
+}
+
+.main4 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.main4 a {
+    display: flex;
+    align-items: center;
+    transition: all 0.6s ease-in-out;
+    opacity: 1;
+}
+
+.main4 a:hover {
+    transform: scale(0.95);
+    opacity: 0.5;
+}
+
+.main-phone {
+    background-color: var(--color-background);  
+    padding: 2% 5%;
+}
+
+.main-phone p {
+    font-size: var(--font1);
+    padding: 2%;
+    white-space: nowrap;
+    font-family: 'Barlow', sans-serif;
+    text-align: center;
+    font-weight: 600;
+    color: var(--color12);
+    cursor: default;
+}
+
+.submain {
+    background-color: var(--color5);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.submain1 {
+    display: flex;
+    padding: 2%;
+}
+
+.submain1 ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+    list-style: none;
+}
+
+.submain1 a {
+    font-family: var(--font1);
+    text-decoration: none;
+    color: var(--color4);
+    font-weight: 600;
+    transition: all ease-in-out 0.2s;
+}
+
+.submain1 a:hover {
+    color: var(--color2);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    padding: 2%;
+}
+
+.carrossel {
+    box-shadow: 2px 2px 4px var(--color3);
+    overflow: hidden;
+    height: 300px;
+    width: 300px;
+}
+
+.container {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0);
+}
+
+#img {
+    object-fit: cover;
+    height: 300px;
+    width: 300px;
+}
+
+/*Main styles*/
+
+/*Footer styles*/
+
+footer {
+    background-color: var(--color12);
+    padding: 2%;
+}
+
+.ftmain {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.ftleft {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: flex-start;
+}
+
+.ftWha,
+.ftMai,
+.ftTim {
+    cursor: default;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    font-family: var(--font1);
+    font-size: 0.8rem;
+    color: var(--color5);
+}
+
+.subftright {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.subftright a {
+    text-decoration: none;
+    color: var(--color5);
+    opacity: 1;
+    transition: all ease-in-out 0.3s;
+    font-family: var(--font1);
+    font-size: 0.8rem;
+}
+
+.subftright a:hover {
+    opacity: 0.5;
+}
+
+.titleInst {
+    color: var(--color5);
+    font-family: var(--font1);
+    font-size: 1.50rem;
+    font-weight: 800;
+    cursor: default;
+    letter-spacing: 1px;
+}
+
+.ftfin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3%;
+    gap: 5px;
+}
+
+.ftfin p {
+    font-family: var(--font1);
+    font-size: 0.7rem;
+    color: var(--color-background);
+}
